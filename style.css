@@ -1,0 +1,32 @@
+@import url(bloc.css);
+*{
+   font-family: Arial, Helvetica, sans-serif;
+        }
+h1 {
+    color: black;
+    font-size: 2em;
+    text-decoration:underline;
+    /*background-color: lime;*/
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+    /* Commentaire CSS */
+ }
+ p{
+    color: black;
+ }
+ #para1{
+        color: red;
+ }
+ .ok{
+    font-size: 20px;
+    color: green;
+ }
+ body{
+  /* background-color: rgb(131, 241, 241);*/
+   background-image: url(images/parallax.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }

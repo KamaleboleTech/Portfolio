@@ -3,14 +3,51 @@
 <head>
     <title>Mes Contacts</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mes Contacts et Adresses</h1>
+    <h1>MES CONTACTS ET ADRESSES</h1>
     
         <p>Adresses: 24, Avenue British, Kinshasa/Ngaliema</p>
-        <p>E-mail: E-mail: eliyakamalebo@gmail.com </p>  
-        <p><a href="tel:+243824666542">Appeller moi</a> </p>
+        <p>E-mail: eliyakamalebo@gmail.com</p>  
+        <p>Téléphone:  <a href="tel:+243824666542">+243824661202</a> </p>
         <p><a href="reseaux/reseauxsociaux.html">Visitez mes reseaux sociaux</a></p><br>
+        <h2>Formulaire</h2>
+        <form action="">
+            <label>Nom:<input type="text" placeholder="Entrez votre nom"></label><br> <br>
+            <label>Telephone:<input type="tel" placeholder="+243XXXXXXXXX"></label><br> <br>
+            <label>Genre:</label> <br>
+            <input type="radio" name="genre" id="masculin">
+            <label for="masculin">Masculin</label>
+            <input type="radio" name="genre" id="feminin">
+            <label for="feminin">Feminin</label> <br> <br>
+            <label>Langues parlées:</label> <br>
+            <input type="checkbox" name="langues" id="Français">
+            <label for="langues">Français</label>
+            <input type="checkbox" name="langues" id="Anglais">
+            <label for="langues">Anglais</label>
+            <input type="checkbox" name="langues" id="Portugais">
+            <label for="langues">Portugais</label>
+            <input type="checkbox" name="langues" id="Espagnol">
+            <label for="langues">Espagnol</label><br> <br>
+            <label for="file-select">Televerser un fichier:</label>
+            <input type="file" name="upload" id="file-select">
+            <!-- <label>Langues parlées:<input type="checkbox"></label><br>-->
+            <p>Pays:</p><select name="" id=""></p>
+                <option value="">République Démocratique du Congo</option>
+                <option value="">Cameroun</option>
+                <option value="">Tchad</option>
+                <option value="">Gabon</option>
+                <option value="">Togo</option>
+            </select> <br> <br>
+            <p>Qu'avez-vous à nous dire?</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+            <button>Quitter</button>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+
+        </form>
+        <br>
         <a href="index.html">Retour à la Page d'Accueil</a>
     
 </body>
